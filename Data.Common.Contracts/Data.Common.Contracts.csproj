@@ -42,10 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IDataDestroyer.cs" />
+    <Compile Include="IDataEventSource.cs" />
     <Compile Include="IDataSourceIterator.cs" />
     <Compile Include="IDataWriter.cs" />
     <Compile Include="IOneWayDataSource.cs" />
     <Compile Include="IQuery.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="PagedDataSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
